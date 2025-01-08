@@ -1,0 +1,171 @@
+main.Hero_Deals {
+    .Hero_section {
+        background-image: url('../asset/images/Deals/bgimg.gif');
+        background-repeat: no-repeat;
+        min-height: 90vh;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+// ///////////////////// HotDeals
+
+main.HotDeals {
+    #imagebox {
+        width: 100%;
+        height: 500px;
+        background-image: url('../asset/images/Deals/deal1/Deal1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    #imagebox:hover {
+        z-index: 0;
+        opacity: 1;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -webkit-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -moz-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        transform: scale(1.05);
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    #imagebox1 {
+        width: 100%;
+        height: 500px;
+        background-image: url('../asset/images/Deals/deal2/deal2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    #imagebox1:hover {
+        z-index: 0;
+        opacity: 1;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -webkit-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -moz-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        transform: scale(1.05);
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    #imagebox2 {
+        background-image: url('../asset/images/Deals/deal3/deal3.png');
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    #imagebox2:hover {
+        z-index: 0;
+        opacity: 1;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -webkit-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -moz-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        transform: scale(1.05);
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    #Hero_link {
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    #Hero_link:hover {
+        background-color: Orange;
+        color: white;
+        font-size: 15px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .heading {
+        text-decoration: none;
+    }
+}
+
+// ///////////// Exclusive_Deals 
+main.Exclusive_Deals {
+    .bg_img {
+        background-image: url('../asset/images/Home/Home/dealsbg.png');
+        width: 100%;
+        height: 400px;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(0.5);
+    }
+
+    #overlayer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    #Excllusive_link {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 15px 10px;
+
+    }
+
+    #Excllusive_link1 {
+        padding: 15px 10px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+    }
+
+    #Excllusive_link1:hover {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+
+// /////////////////////// Dealspage1
+
+main.Dealspage1{
+    #Deal_link{
+        text-decoration: none;
+        color: white;
+        background-color: orange;
+        padding: 10px 20px;
+        border-radius: 10px;
+
+    }
+    #Deal_link1{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 10px;
+
+    }
+}

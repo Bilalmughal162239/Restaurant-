@@ -1,0 +1,66 @@
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    #Footer_Link {
+        text-decoration: none;
+        color: black;
+        font-family: Monotype Corsiva;
+        font-weight: 600;
+    }
+
+    #Navigate_link {
+        text-decoration: none;
+        padding-bottom: 5px;
+    }
+}
+
+// CopyRigth
+
+footer.CopyRigth {
+    .FontIcon {
+
+        #apple,
+        #twitter,
+        #github,
+        #facebook {
+            font-size: 2rem;
+            background-color: #18191f;
+            color: white;
+            box-shadow: 8px 8px 12px #2002a508,
+                10px 1px 24px #2002a508,
+                8px 8px 20px #2002a508,
+                8px 8px 30px #2002a508, inset 8px 8px 20px #2002a508,
+                inset 8px 8px 20px #2002a508, inset 8px 8px 20px #2002a508, inset 8px 8px 20px #2002a508;
+
+            border-radius: 29px;
+            margin: 0 5px;
+            padding: 11px 19px;
+            animation: animate 3s linear infinite;
+            text-shadow: 0 0 100px #e2fa06, 10 0 200px #e2fa06, 0 0 250px #e2fa06, 0 0 300px #e2fa06;
+        }
+
+        #twitter {
+            animation-delay: 0.3s;
+        }
+
+        #facebook {
+            animation-delay: 0.7s;
+        }
+
+        #github {
+            animation-delay: 0.1s;
+        }
+
+        @keyframes animate {
+            from {
+                filter: hue-rotate(0deg);
+            }
+
+            to {
+                filter: hue-rotate(360deg);
+            }
+        }
+    }
+}

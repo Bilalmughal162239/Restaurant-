@@ -1,0 +1,15 @@
+main.Contact_Us{
+    .card {
+        border: 1px solid black;
+        transition: all 0.7s;
+        border-radius: 5px;
+        
+    }
+    
+    .card:hover {
+        cursor: pointer;
+        border: 1px solid #093637;
+        box-shadow: 10px 10px 5px 0px #093637;
+        border-radius: 20px;
+    }
+}

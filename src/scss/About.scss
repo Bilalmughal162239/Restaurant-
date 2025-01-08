@@ -1,0 +1,57 @@
+main.Discover {
+    .para {
+        text-align: justify;
+    }
+
+    .card:hover {
+        box-shadow: 2px 2px 6px 6px rgb(207, 116, 11);
+        transition: all 0.5s;
+    }
+}
+
+main.Expers {
+    .para {
+        text-align: justify;
+        letter-spacing: normal;
+    }
+
+    .card_Expert {
+        border: 1px solid black;
+        transition: all 0.7s;
+        border-radius: 5px;
+        
+    }
+    
+    .card_Expert:hover {
+        cursor: pointer;
+        border: 1px solid #093637;
+        box-shadow: 10px 10px 5px 0px #093637;
+        border-radius: 20px;
+    }
+    #Expert_img{
+        border-radius: 5px;
+        transition: all 0.7s;
+    }
+    #Expert_img:hover{
+        border-radius: 20px;
+    }
+    #Expert_icons{
+        text-decoration: none;
+
+    }
+    #Expert_icons:hover{
+        color: navy;
+
+    }
+    #Export_Link{
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        transition: all 0.5s;
+    }
+    #Export_Link:hover{
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+    }
+}

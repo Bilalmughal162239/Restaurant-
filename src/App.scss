@@ -1,0 +1,27 @@
+$primary:#1d3557;
+
+@import './scss/bootstrap';
+@import './scss/footer';
+@import './scss/header';
+@import './scss/Home';
+@import './scss/About.scss';
+@import './scss/ContactUs';
+@import './scss/Deals';
+@import './scss/Menu.scss';
+@import './scss/Auth';
+@import './scss/SceernLoder';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+}

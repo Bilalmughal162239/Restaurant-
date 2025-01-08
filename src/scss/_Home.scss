@@ -1,0 +1,236 @@
+// Hero section Coding
+main.Hero {
+    .Hero_section {
+        background-image: url('../asset/images/Home/Home/video1.png');
+        background-repeat: no-repeat;
+        min-height: 90vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .para {
+        text-align: justify;
+    }
+
+    #Hero_link {
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    #Hero_link:hover {
+        background-color: Orange;
+        color: white;
+        font-size: 15px;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+// ///////////////////////////////////Boximage
+main.Boximage {
+    #imagebox {
+        width: 100%;
+        height: 500px; 
+        border-radius: 8px;
+        background-image: url('../asset/images/Home/Home/Hero_box.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transition: all 0.5s ease-in-out;
+        opacity: 0.9;
+    }
+
+    #imagebox:hover {
+        z-index: 0;
+        opacity: 1;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -webkit-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -moz-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        transform: scale(1.05);
+        
+
+    }
+
+    #imagebox1 {
+        width: 100%;
+        height: 500px; 
+        border-radius: 8px;
+        background-image: url('../asset/images/Home/Home/Hero_box1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transition: all 0.5s ease-in-out;
+        opacity: 0.9;
+    }
+
+    #imagebox1:hover {
+        z-index: 0;
+        opacity: 1;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -webkit-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -moz-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        transform: scale(1.05);
+        
+
+    }
+
+    #imagebox2 {
+        background-image: url('../asset/images/Home/Home/Hero_box2.png');
+        width: 100%;
+        height: 500px; 
+        border-radius: 8px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transition: all 0.5s ease-in-out;
+        opacity: 0.9;
+    }
+
+    #imagebox2:hover {
+        z-index: 0;
+        opacity: 1;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -webkit-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -moz-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        transform: scale(1.05);
+        
+
+    }
+
+    #Hero_link {
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    #Hero_link:hover {
+        background-color: Orange;
+        color: white;
+        font-size: 15px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .heading {
+        text-decoration: none;
+    }
+}
+
+// ////////////// Collection Code
+
+main.Collection {
+    #collection_link {
+        text-decoration: none;
+        background-color: white;
+        border: 1px solid black;
+        float: right;
+    }
+
+    #collection_link:hover {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .collection_card {
+        border: 1px solid black;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .collection_card:hover {
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -webkit-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -moz-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        transform: scale(1.05);
+       
+    }
+
+    #link1 {
+        border: 1px solid red;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+    }
+
+    #link1:hover {
+        border: 1px solid rgb(132, 175, 13);
+        border-radius: 5px;
+        background-color: rgb(37, 12, 182);
+        color: white;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+
+// ////////////////////////// Exclusive Code
+
+main.Exclusive {
+    .bg_img {
+        background-image: url('../asset/images/Home/Home/bg_img\ Exclusive.png');
+        width: 100%;
+        height: 400px;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(0.5);
+    }
+
+    #overlayer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    #Excllusive_link {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 15px 10px;
+
+    }
+
+    #Excllusive_link1 {
+        padding: 15px 10px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+    }
+
+    #Excllusive_link1:hover {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+
+// /////////////////////// gallery_images 
+
+main.gallery {
+    #gallery_images:hover{
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -webkit-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        -moz-box-shadow: 10px 10px 20px 5px rgba(63, 20, 222, 0.75);
+        transform: scale(1.05);
+        transition: all 0.5s ease-in-out;
+    }
+}
